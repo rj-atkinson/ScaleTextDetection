@@ -1,0 +1,7 @@
+
+        path: ./v1-data-perfect-background/
+        train: images/train
+        val: images/train  # You can split or provide a validation set separately
+        nc: 1  # Replace with the number of your classes
+        names: ['digits']  # Replace with your class names
+        
