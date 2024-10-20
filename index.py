@@ -14,7 +14,7 @@ def parse_args():
     parser.add_argument('--dataset', type=str, required=True, help='Name for the YOLO dataset directory.')
     parser.add_argument('--epochs', type=int, default=100, help='Number of epochs for training.')
     parser.add_argument('--batch_size', type=int, default=16, help='Batch size for training.')
-    parser.add_argument('--model_name', type=str, default='yolov11n', help='YOLO model to use (e.g., yolov8n, yolov8s, etc.)')
+    parser.add_argument('--model_name', type=str, default='yolo11n', help='YOLO model to use (e.g., yolov8n, yolov8s, etc.)')
     return parser.parse_args()
 
 # Convert VOC XML to YOLO TXT format and create empty annotation files for images without annotations
